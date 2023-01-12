@@ -14,7 +14,8 @@ It previews the theme using Kitty's remote control facility, and sets the theme 
 ```
 git clone https://github.com/eggmceye/kitty-theme-browser
 cd kitty-theme-browser
-./kittythemebrowser
+chmod +x kittythemebrowser.pl
+./kittythemebrowser.pl
 ```
 ## Usage
 * use + or - to move back and forward through the themes
