@@ -1,8 +1,8 @@
 #!/usr/bin/env -S perl -w
 
 # KITTY THEME BROWSER
-# use + or - to scroll
-# hit alphakey to jump to name
+# use + or - to move back and forward through themes
+# hit letter/number keys to jump to theme name
 # hit enter to set permanently
 
 use strict;
@@ -32,12 +32,12 @@ die("No themes!") if @themes==0;
 
 print("
 # KITTY THEME BROWSER
-# use + or - to scroll
-# hit alphakey to jump to name
+# use + or - to move back and forward through themes
+# hit letter/number keys to jump to theme name
 # hit enter to set permanently (by creating a symlink)
 # ctrl-c to quit
 
-# requries kitty kitty-themes https://github.com/dexpota/kitty-themes
+# requries some kitty themes: eg https://github.com/dexpota/kitty-themes
 # and kitty remote control mode enabled
 
 ");
